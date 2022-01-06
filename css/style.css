@@ -1,0 +1,266 @@
+/* ---------------- Slide ---------------- */
+.slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0px;
+}
+.slide h1{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.slide span{
+    color: #86AA0A;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 30px;
+}
+#nth2{display: none;}
+#nth3{display: none;}
+.slide p{
+    font-size: 30px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.slide p:hover{background-color: #86aa0a; box-shadow: 0px 0px 10px white;}
+/* -------------- Search ------------ */
+#Search{text-align: center;}
+form input{
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    border:none;
+    margin: 10px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+form input:focus {
+    color: #86AA0A;
+    box-shadow: 0px 0px 15px #86AA0A;
+}
+form input:nth-child(2){width: 750px;}
+.buttonOrder{text-align: center;}
+.buttonOrder button{
+    padding: 20px 80px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #86AA0A;
+    border: none;
+    border-radius: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+.buttonOrder button:hover{box-shadow: 0px 0px 15px white;}
+/* ------------------ Services --------------- */
+.shadow{background-color: #1b1b1bef;}
+.services{
+    margin-top: 120px;
+    text-align: center;
+    padding: 40px 0px;
+    color: white
+}
+.services h1{font-size: 40px}
+.services .object{
+    display: inline-block;
+    margin: 20px;
+    min-width: 150px;
+    max-width: 150px;
+}
+.services .object img{
+    border: 2px solid white;
+    width: 100%;
+}
+.btn{
+    background-color: #86AA0A;
+    border: none;
+    transition: 0.4s;
+    padding: 15px;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: #FE9700;
+    box-shadow: 0px 0px 5px white;
+}
+/* ------------- About -------------- */
+#About{
+    width: 59%;
+    margin: 0px auto;
+    color: white;
+}
+#About h1{font-size: 40px;}
+#About .object{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px
+}
+#About .object div{padding: 0px 40px;}
+#About .object div p{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#About .object div h2{font-size: 30px;}
+#About .object img{width: 40%;}
+/* --------------- Shop -------------- */
+#Shop{
+    background-color: #8EB50B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+.btn-white{
+    background-color: white;
+    border: none;
+    transition: 0.4s;
+    padding: 15px 50px;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+}
+.btn-white:hover {
+    background-color: #8BB10B;
+    box-shadow: 0px 0px 5px white;
+}
+#Shop img{
+    width: 200px;
+    margin: 30px 0px;
+}
+#Shop div{
+    width: 40%;
+    margin-right: 50px;
+}
+#Shop h1{font-size: 40px;}
+#Shop .span{
+    color: black;
+    padding: 0;
+    margin: 0 0 -35px 0
+}
+/* --------------- Blog -------------------- */
+#Blog{
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+#Blog .object{
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    background-color: #ffffffa9;
+    padding: 15px 30px;
+    transition: 0.4s;
+    margin: 15px
+}
+#Blog .object p{
+    padding: 10px;
+    background-color: #1b1b1bef;
+    border: 2px solid white
+}
+#Blog .object h2{color: #252525;}
+#Blog .object:hover{
+    color: #8EB50B;
+    box-shadow: 0px 0px 15px white;
+}
+#BlogPage2, #BlogPage3{display: none;}
+#Blog i{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    margin: 20px 20px;
+}
+#Blog i:hover{background-color: #86aa0a; box-shadow: 0px 0px 10px white;}
+/* ------------- Contact --------------- */
+#Contact{
+    background: url("../img/background\ 2.png");
+    width: 55%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    color: white
+}
+#Contact form input{
+    width: 80%;
+    margin: 10px;
+}
+#Contact form textarea{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 15px 25px;
+    width: 80%;
+    max-width: 80%;
+    max-height: 400px;
+    min-height: 200px;
+    min-width: 80%;
+    margin: 10px;
+}
+#Contact form input[type=Submit]{
+    background-color: #86AA0A;
+    border: none;
+    transition: 0.4s;
+    padding: 15px;
+    width: 80%;
+    border-radius: 7px;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Font Awesome 5 Free';
+}
+#Contact form input[type=Submit]:hover {
+    background-color: #FE9700;
+    box-shadow: 0px 0px 5px white;
+}
+@media only screen and (max-width: 1150px){
+    form input:nth-child(2){width: 500px;}
+}
+@media only screen and (max-width: 1000px){
+    #nth1, #nth2, #nth3{font-size: 30px;}
+    .slide p{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+    }
+    form input:nth-child(1), form input:nth-child(2){width: 90%;}
+    #About .object div{
+        width: 90%;
+        order: 2;
+        text-align: center;
+        padding: 0;
+    }
+    #About .object img{
+        width: 90%;
+        order: 1;
+    }
+    #About .object, #Shop{flex-wrap: wrap;}
+    #Shop div{
+        width: 90%;
+        text-align: center;
+        margin: 0;
+    }
+    #Contact{width: 90%;}
+}
